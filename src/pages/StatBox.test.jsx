@@ -1,7 +1,7 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import { FaDollarSign } from "react-icons/fa";
-import StatBox from "./Index";
+import StatBox from "../components/StatBox";
 
 test("renders StatBox with correct label and value", () => {
   render(<StatBox icon={FaDollarSign} label="Revenue" value="$50,000" change="+5%" />);
